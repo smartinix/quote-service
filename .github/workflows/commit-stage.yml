@@ -50,6 +50,7 @@ jobs:
         uses: graalvm/setup-graalvm@v1
         with:
           version: '23.0.1'
+          distribution: 'nik'
           java-version: '17'
           components: 'native-image'
           github-token: ${{ secrets.GITHUB_TOKEN }}
